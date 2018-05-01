@@ -1,0 +1,23 @@
+# Clear workspace variables
+rm(list = ls())
+cat("\014")
+
+# Set working directory
+setwd("~/Dropbox/Documents/Projects/DataScience/CVDModel")
+
+library(haven)
+data <- read_dta("data.dta")
+View(data)
+
+table(logregression_data$diabetes)
+prop.table(table(logregression_data$diabetes))
+mean(logregression_data$diabetes)
+sd(logregression_data$diabetes)
+summary(logregression_data$diabetes)
+prop.table(table(logregression_data$diabetes, logregression_data$sex),2)
+
+# In case it is too hard to understand this table, you can add a label to the categories of variables diabetes and sex by typing:
+
+logregression_data$diabetes <- factor(logregression_data$diabetes, levels = c(0,1), labels = c("No", "Yes"))
+logregression_data$sex <- factor(logregression_data$sex, levels = c(0,1), labels = c("Men", "Women"))
+prop.table(table(logregression_data$diabetes, logregression_data$ag16g10),2)

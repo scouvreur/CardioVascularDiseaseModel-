@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525171875355.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3375570409",
+    "id" : "13293620",
+    "lastKnownWriteTime" : 1524842294,
+    "last_content_update" : 1524842294,
+    "path" : "~/Dropbox/Documents/Projects/DataScience/LungFunctionModel/LungFunctionModel.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "3,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
